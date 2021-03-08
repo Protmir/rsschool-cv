@@ -1,0 +1,25 @@
+.container {
+    width: 1140px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.img_text {
+    display: flex;
+}
+
+.avatar {
+    width: 30%;
+}
+
+.name {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.contacts_info, .some_info {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+}
